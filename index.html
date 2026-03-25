@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NK Marketing Solutions | Premium EDDM Ad Spots</title>
+  <meta name="description" content="Reserve a premium EDDM postcard ad spot with NK Marketing Solutions and reach ~5,000 local homes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0b2a4a;
+      --gold: #f4c542;
+      --bg: #f7f9fc;
+      --text: #0a1020;
+      --white: #ffffff;
+      --muted: #5d6678;
+      --card-shadow: 0 12px 28px rgba(10, 16, 32, 0.08);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --transition: 220ms ease;
+      --max-width: 1120px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at top right, rgba(244, 197, 66, 0.15), transparent 45%), var(--bg);
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(92%, var(--max-width));
+      margin-inline: auto;
+    }
+
+    .section {
+      padding: 82px 0;
+    }
+
+    .section-title {
+      font-family: "Montserrat", "Inter", system-ui, sans-serif;
+      font-size: clamp(1.6rem, 1.4rem + 1vw, 2.2rem);
+      line-height: 1.2;
+      margin-bottom: 14px;
+      color: var(--navy);
+    }
+
+    .section-subtitle {
+      color: var(--muted);
+      max-width: 760px;
+      margin-bottom: 36px;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(247, 249, 252, 0.92);
+      border-bottom: 1px solid rgba(11, 42, 74, 0.09);
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-wrap {
+      min-height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .brand-logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      object-fit: cover;
+      border: 1px solid rgba(11, 42, 74, 0.12);
+      background: var(--white);
+    }
+
+    .brand-fallback {
+      display: none;
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      align-items: center;
+      justify-content: center;
+      background: var(--navy);
+      color: var(--white);
+      font-weight: 700;
+      font-size: 0.82rem;
+      letter-spacing: 0.5px;
+    }
+
+    .brand-name {
+      font-family: "Montserrat", "Inter", sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--navy);
+      line-height: 1.2;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--navy);
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: color var(--transition);
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: #17406e;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      border: 0;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 12px 20px;
+      transition: transform var(--transition), box-shadow var(--transition), background var(--transition);
+    }
+
+    .btn:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 2px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--gold), #f8d86f);
+      color: #1d1808;
+      box-shadow: 0 8px 20px rgba(244, 197, 66, 0.4);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 22px rgba(244, 197, 66, 0.5);
+    }
+
+    .btn-secondary {
+      background: var(--navy);
+      color: var(--white);
+      box-shadow: 0 8px 18px rgba(11, 42, 74, 0.2);
+    }
+
+    .btn-secondary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 22px rgba(11, 42, 74, 0.3);
+    }
+
+    .hero {
+      padding: 88px 0 76px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 36px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(11, 42, 74, 0.08);
+      color: var(--navy);
+      font-weight: 700;
+      font-size: 0.83rem;
+      letter-spacing: 0.4px;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      font-family: "Montserrat", "Inter", sans-serif;
+      font-size: clamp(2rem, 1.5rem + 2vw, 3.25rem);
+      line-height: 1.1;
+      color: var(--navy);
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      color: var(--muted);
+      max-width: 640px;
+      margin-bottom: 24px;
+      font-size: 1.05rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .badge-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .badge {
+      background: var(--white);
+      border: 1px solid rgba(11, 42, 74, 0.12);
+      border-radius: var(--radius-sm);
+      padding: 13px 14px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--navy);
+      box-shadow: 0 5px 15px rgba(10, 16, 32, 0.06);
+      text-align: center;
+    }
+
+    .hero-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 28px;
+      border: 1px solid rgba(11, 42, 74, 0.1);
+      box-shadow: var(--card-shadow);
+    }
+
+    .hero-card h3 {
+      font-family: "Montserrat", "Inter", sans-serif;
+      color: var(--navy);
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+    }
+
+    .hero-card ul {
+      list-style: none;
+      display: grid;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .hero-card li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      color: #223047;
+      font-size: 0.95rem;
+    }
+
+    .hero-card li::before {
+      content: "";
+      flex: 0 0 10px;
+      width: 10px;
+      height: 10px;
+      margin-top: 7px;
+      border-radius: 50%;
+      background: var(--gold);
+    }
+
+    .spot-note {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .step-card {
+      background: var(--white);
+      border: 1px solid rgba(11, 42, 74, 0.11);
+      border-radius: var(--radius-sm);
+      padding: 22px 18px;
+      box-shadow: 0 8px 18px rgba(10, 16, 32, 0.06);
+    }
+
+    .step-number {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--navy);
+      color: var(--white);
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .step-card h3 {
+      font-size: 1rem;
+      color: var(--navy);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .step-card p {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .pricing-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      border: 1px solid rgba(11, 42, 74, 0.12);
+      box-shadow: var(--card-shadow);
+      padding: clamp(22px, 3vw, 34px);
+      max-width: 740px;
+    }
+
+    .pricing-name {
+      font-size: 1.05rem;
+      color: var(--navy);
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    .pricing-amount {
+      font-family: "Montserrat", "Inter", sans-serif;
+      font-size: clamp(2rem, 1.4rem + 2.2vw, 3rem);
+      color: var(--navy);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .pricing-amount span {
+      font-size: 1.1rem;
+      color: var(--muted);
+      font-weight: 600;
+      margin-left: 8px;
+    }
+
+    .pricing-highlight {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border-radius: 999px;
+      padding: 8px 14px;
+      background: rgba(244, 197, 66, 0.24);
+      color: #54400e;
+      font-weight: 700;
+      margin: 8px 0 18px;
+    }
+
+    .includes {
+      list-style: none;
+      display: grid;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .includes li {
+      position: relative;
+      padding-left: 22px;
+      color: #233046;
+    }
+
+    .includes li::before {
+      content: "\2713";
+      position: absolute;
+      left: 0;
+      color: var(--navy);
+      font-weight: 800;
+    }
+
+    .faq-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .faq-item {
+      background: var(--white);
+      border: 1px solid rgba(11, 42, 74, 0.11);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+    }
+
+    .faq-question {
+      width: 100%;
+      text-align: left;
+      border: 0;
+      background: transparent;
+      padding: 16px 18px;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .faq-question span {
+      color: var(--gold);
+      font-weight: 800;
+      transition: transform var(--transition);
+    }
+
+    .faq-answer {
+      display: none;
+      color: var(--muted);
+      padding: 0 18px 16px;
+      font-size: 0.95rem;
+    }
+
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    .faq-item.active .faq-question span {
+      transform: rotate(45deg);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 0.85fr 1.15fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .contact-card,
+    .form-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      border: 1px solid rgba(11, 42, 74, 0.1);
+      box-shadow: var(--card-shadow);
+      padding: clamp(18px, 2.8vw, 28px);
+    }
+
+    .reserve-text {
+      font-family: "Montserrat", "Inter", sans-serif;
+      color: var(--navy);
+      font-size: clamp(1.3rem, 1.1rem + 1vw, 1.9rem);
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+
+    .phone-link {
+      color: var(--navy);
+      font-weight: 800;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .contact-card p {
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    form {
+      display: grid;
+      gap: 12px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    label {
+      font-size: 0.86rem;
+      font-weight: 600;
+      color: #223047;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      border: 1px solid rgba(11, 42, 74, 0.2);
+      border-radius: 10px;
+      padding: 12px;
+      font: inherit;
+      color: var(--text);
+      background: #fff;
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: 2px solid rgba(11, 42, 74, 0.25);
+      border-color: var(--navy);
+    }
+
+    textarea {
+      min-height: 105px;
+      resize: vertical;
+    }
+
+    .success-message {
+      display: none;
+      margin-top: 10px;
+      padding: 12px;
+      border-radius: 10px;
+      background: rgba(244, 197, 66, 0.2);
+      color: #4d3b10;
+      font-weight: 600;
+      font-size: 0.92rem;
+    }
+
+    .mailto-link {
+      display: none;
+      margin-top: 10px;
+      font-weight: 700;
+      color: var(--navy);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .site-footer {
+      padding: 22px 0 32px;
+      color: #4f5c70;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(10, 16, 32, 0.6);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      z-index: 2000;
+    }
+
+    .modal.open {
+      display: flex;
+    }
+
+    .modal-content {
+      width: min(96%, 480px);
+      background: var(--white);
+      border-radius: 14px;
+      border: 1px solid rgba(11, 42, 74, 0.12);
+      box-shadow: 0 18px 34px rgba(10, 16, 32, 0.25);
+      padding: 20px;
+      position: relative;
+    }
+
+    .modal-title {
+      font-family: "Montserrat", "Inter", sans-serif;
+      color: var(--navy);
+      font-size: 1.25rem;
+      margin-bottom: 8px;
+    }
+
+    .modal-subtitle {
+      color: var(--muted);
+      margin-bottom: 14px;
+      font-size: 0.95rem;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border: 0;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      background: rgba(11, 42, 74, 0.08);
+      color: var(--navy);
+      font-size: 1.2rem;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .modal-note {
+      display: none;
+      margin-top: 12px;
+      border-radius: 10px;
+      padding: 11px;
+      background: rgba(11, 42, 74, 0.09);
+      color: var(--navy);
+      font-weight: 600;
+      font-size: 0.92rem;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 650ms ease, transform 650ms ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .steps-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .nav-links {
+        gap: 14px;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .nav-wrap {
+        min-height: 66px;
+      }
+
+      .brand-name {
+        font-size: 0.92rem;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        padding-top: 72px;
+      }
+
+      .badge-row {
+        grid-template-columns: 1fr;
+      }
+
+      .steps-grid,
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="NK Marketing Solutions home">
+        <img id="brandLogo" class="brand-logo" src="./assets/logo.jpg" alt="NK Marketing Solutions logo" />
+        <span id="brandFallback" class="brand-fallback" aria-hidden="true">NK</span>
+        <span class="brand-name">NK Marketing Solutions</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="btn btn-primary" type="button" data-open-modal>Reserve Spot</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="fade-in">
+          <div class="eyebrow">Premium EDDM Campaign</div>
+          <h1>Get Your Business in 5,000 Local Mailboxes Without Wasting Ad Spend</h1>
+          <p>
+            Reserve one of just 10 premium ad spots on our glossy, double-sided EDDM postcard and get your brand in front of thousands of nearby homeowners.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" type="button" data-open-modal>Reserve My Spot</button>
+            <a class="btn btn-secondary" href="tel:+17347187076">Text 734-718-7076</a>
+          </div>
+          <div class="badge-row" aria-label="Campaign highlights">
+            <div class="badge">10 Spots Only</div>
+            <div class="badge">No Competitors in Same Category</div>
+            <div class="badge">Premium Glossy Double-Sided</div>
+          </div>
+        </div>
+        <aside class="hero-card fade-in" aria-label="Offer summary">
+          <h3>Why local owners choose this</h3>
+          <ul>
+            <li>Built-in exclusivity by business category per card.</li>
+            <li>Professional ad design included in your spot.</li>
+            <li>Direct mailbox delivery to around 5,000 homes.</li>
+            <li>Fast reservation process with clear next steps.</li>
+          </ul>
+          <p class="spot-note">First come, first served. Once your category is filled, that slot closes.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <h2 class="section-title fade-in">How It Works</h2>
+        <p class="section-subtitle fade-in">Simple, fast, and fully managed from reservation through mailbox delivery.</p>
+        <div class="steps-grid">
+          <article class="step-card fade-in">
+            <div class="step-number">1</div>
+            <h3>Reserve spot (first come first served)</h3>
+            <p>Claim your category before all 10 placements are booked.</p>
+          </article>
+          <article class="step-card fade-in">
+            <div class="step-number">2</div>
+            <h3>Send logo + offer</h3>
+            <p>Share your logo, message, and any special promotion details.</p>
+          </article>
+          <article class="step-card fade-in">
+            <div class="step-number">3</div>
+            <h3>We design your ad</h3>
+            <p>Our team creates a polished ad and sends it for quick approval.</p>
+          </article>
+          <article class="step-card fade-in">
+            <div class="step-number">4</div>
+            <h3>We print + mail to ~5,000 homes</h3>
+            <p>Your ad goes out on premium postcards to local households.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <h2 class="section-title fade-in">Pricing</h2>
+        <p class="section-subtitle fade-in">One clear package with everything needed to launch.</p>
+        <article class="pricing-card fade-in">
+          <p class="pricing-name">Premium Ad Spot</p>
+          <p class="pricing-amount">$400 <span>flat rate</span></p>
+          <p class="pricing-highlight">≈ 8¢ per household</p>
+          <ul class="includes" aria-label="What is included">
+            <li>Ad design included</li>
+            <li>Premium 12pt cardstock</li>
+            <li>Glossy UV coating</li>
+            <li>Double-sided printing</li>
+            <li>Mailed to ~5,000 households</li>
+          </ul>
+          <button class="btn btn-primary" type="button" data-open-modal>Reserve Spot</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <h2 class="section-title fade-in">Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <article class="faq-item fade-in">
+            <button class="faq-question" type="button">Does direct mail still work? <span>+</span></button>
+            <div class="faq-answer">Yes. Direct mail remains effective for local reach because it puts your offer directly in households and avoids crowded digital ad feeds.</div>
+          </article>
+          <article class="faq-item fade-in">
+            <button class="faq-question" type="button">Can I be the only business in my category? <span>+</span></button>
+            <div class="faq-answer">Yes. We do not place two advertisers from the same category on the same postcard campaign.</div>
+          </article>
+          <article class="faq-item fade-in">
+            <button class="faq-question" type="button">What do you need from me? <span>+</span></button>
+            <div class="faq-answer">Your business name, logo, preferred offer, and best contact details. We handle the layout and production details.</div>
+          </article>
+          <article class="faq-item fade-in">
+            <button class="faq-question" type="button">When does the mail drop? <span>+</span></button>
+            <div class="faq-answer">Mail drop dates are scheduled once spots are filled. You’ll receive the final timing during onboarding and approval.</div>
+          </article>
+          <article class="faq-item fade-in">
+            <button class="faq-question" type="button">Can I choose my ad size? <span>+</span></button>
+            <div class="faq-answer">Ad dimensions are standardized for print quality and layout balance, but we optimize your design for maximum visibility.</div>
+          </article>
+          <article class="faq-item fade-in">
+            <button class="faq-question" type="button">What if my category is taken? <span>+</span></button>
+            <div class="faq-answer">You can join the waiting list for the next drop. We can also suggest the nearest upcoming campaign with availability.</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-card fade-in">
+          <h2 class="section-title">Contact</h2>
+          <p class="reserve-text">Text to reserve: <a class="phone-link" href="sms:+17347187076">734-718-7076</a></p>
+          <p>Prefer a call or text? Share your name, business, and category to lock your place quickly.</p>
+          <button class="btn btn-secondary" type="button" data-open-modal>Open Reserve Form</button>
+        </div>
+
+        <div class="form-card fade-in">
+          <form id="contactForm">
+            <div class="form-grid">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required />
+              </div>
+              <div>
+                <label for="businessName">Business Name</label>
+                <input id="businessName" name="businessName" type="text" required />
+              </div>
+              <div>
+                <label for="category">Category</label>
+                <input id="category" name="category" type="text" required />
+              </div>
+              <div>
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" required />
+              </div>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us your offer or campaign goals"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Inquiry</button>
+          </form>
+          <div id="contactSuccess" class="success-message" role="status" aria-live="polite"></div>
+          <a id="mailtoLink" class="mailto-link" href="#" target="_blank" rel="noopener">Open Email Draft</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">&copy; <span id="year"></span> NK Marketing Solutions. All rights reserved.</div>
+  </footer>
+
+  <div id="reserveModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="reserveTitle">
+    <div class="modal-content">
+      <button class="modal-close" type="button" aria-label="Close modal">&times;</button>
+      <h3 id="reserveTitle" class="modal-title">Reserve Your Spot</h3>
+      <p class="modal-subtitle">Complete this and text us to lock your category.</p>
+      <form id="reserveForm">
+        <div>
+          <label for="reserveName">Name</label>
+          <input id="reserveName" name="reserveName" type="text" required />
+        </div>
+        <div>
+          <label for="reserveBusiness">Business</label>
+          <input id="reserveBusiness" name="reserveBusiness" type="text" required />
+        </div>
+        <div>
+          <label for="reserveCategory">Category</label>
+          <input id="reserveCategory" name="reserveCategory" type="text" required />
+        </div>
+        <div>
+          <label for="reservePhone">Phone</label>
+          <input id="reservePhone" name="reservePhone" type="tel" required />
+        </div>
+        <button class="btn btn-primary" type="submit">Submit Reservation</button>
+      </form>
+      <div id="reserveInstruction" class="modal-note" role="status" aria-live="polite">
+        Text 734-718-7076 with your business name + category to lock your spot.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const logo = document.getElementById("brandLogo");
+      const fallback = document.getElementById("brandFallback");
+      const contactForm = document.getElementById("contactForm");
+      const contactSuccess = document.getElementById("contactSuccess");
+      const mailtoLink = document.getElementById("mailtoLink");
+      const modal = document.getElementById("reserveModal");
+      const openModalButtons = document.querySelectorAll("[data-open-modal]");
+      const closeModalButton = document.querySelector(".modal-close");
+      const reserveForm = document.getElementById("reserveForm");
+      const reserveInstruction = document.getElementById("reserveInstruction");
+      const year = document.getElementById("year");
+
+      if (year) year.textContent = new Date().getFullYear();
+
+      if (logo) {
+        let attemptedPng = false;
+        logo.addEventListener("error", function () {
+          if (!attemptedPng) {
+            attemptedPng = true;
+            logo.src = "./assets/logo.png";
+            return;
+          }
+          logo.style.display = "none";
+          fallback.style.display = "inline-flex";
+        });
+      }
+
+      document.querySelectorAll(".faq-question").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          const item = btn.closest(".faq-item");
+          item.classList.toggle("active");
+        });
+      });
+
+      function openModal() {
+        modal.classList.add("open");
+        modal.setAttribute("aria-hidden", "false");
+      }
+
+      function closeModal() {
+        modal.classList.remove("open");
+        modal.setAttribute("aria-hidden", "true");
+      }
+
+      openModalButtons.forEach(function (button) {
+        button.addEventListener("click", openModal);
+      });
+
+      if (closeModalButton) {
+        closeModalButton.addEventListener("click", closeModal);
+      }
+
+      if (modal) {
+        modal.addEventListener("click", function (event) {
+          if (event.target === modal) closeModal();
+        });
+      }
+
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape" && modal.classList.contains("open")) closeModal();
+      });
+
+      if (reserveForm) {
+        reserveForm.addEventListener("submit", function (event) {
+          event.preventDefault();
+          reserveInstruction.style.display = "block";
+          reserveForm.reset();
+        });
+      }
+
+      if (contactForm) {
+        contactForm.addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const data = new FormData(contactForm);
+          const name = (data.get("name") || "").toString().trim();
+          const businessName = (data.get("businessName") || "").toString().trim();
+          const category = (data.get("category") || "").toString().trim();
+          const phone = (data.get("phone") || "").toString().trim();
+          const message = (data.get("message") || "").toString().trim();
+
+          const body = [
+            "New EDDM Ad Spot Inquiry",
+            "",
+            "Name: " + name,
+            "Business Name: " + businessName,
+            "Category: " + category,
+            "Phone: " + phone,
+            "Message: " + message
+          ].join("\n");
+
+          const subject = encodeURIComponent("NK Marketing Solutions Ad Spot Inquiry");
+          const encodedBody = encodeURIComponent(body);
+          const href = "mailto:info@nkmarketingsolutions.com?subject=" + subject + "&body=" + encodedBody;
+
+          contactSuccess.textContent = "Thanks! Your details are ready. Use the email draft link below, or text 734-718-7076 now to reserve faster.";
+          contactSuccess.style.display = "block";
+
+          mailtoLink.href = href;
+          mailtoLink.style.display = "inline-block";
+
+          if (navigator.clipboard && window.isSecureContext) {
+            navigator.clipboard.writeText(body).catch(function () {});
+          }
+
+          contactForm.reset();
+        });
+      }
+
+      const animatedEls = document.querySelectorAll(".fade-in");
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver(
+          function (entries, obs) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                obs.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.15 }
+        );
+
+        animatedEls.forEach(function (el) {
+          observer.observe(el);
+        });
+      } else {
+        animatedEls.forEach(function (el) {
+          el.classList.add("visible");
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
